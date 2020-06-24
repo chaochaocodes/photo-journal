@@ -1,0 +1,31 @@
+{
+  "name": "photo-journal",
+  "version": "1.0.0",
+  "description": "A Node.js RESTful API Project (Photo Journaling)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaochaocodes/photo-journal.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api",
+    "photo",
+    "journal"
+  ],
+  "author": "Alicia Chao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaochaocodes/photo-journal/issues"
+  },
+  "homepage": "https://github.com/chaochaocodes/photo-journal#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20",
+    "nodemon": "^2.0.4"
+  }
+}
